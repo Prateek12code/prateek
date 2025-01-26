@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <title>PrateekShukla</title>
+    <link rel="icon" type="image/x-icon" href="Black And Beige  Minimalist Aesthetic Modern Simple Typography Salt Logo (1).png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css"
+  <body>
+
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  
+      <div id="loader">
+        <div id="content">
+          <h1></h1>
+        </div>
+      </div>
+  
+      <div class="notifications"></div>
+  
+      <div id="current_time">
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="mins">00</span>
+      </div>
+
+    <nav id="desktop-nav">
+      <div class="logo" id="title" data-value="NOVA.">NOVA.</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">NOVA.</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="output-onlinegiftools.gif" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title" >PRATEEK SHUKLA</h1>
+        <h1 aria-label="Hi! I'm a developer">
+         I'm a&nbsp;<span class="typewriter"></span>
+        </h1>
+        <br>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='https://www.youtube.com/@NOVA-CodeAI'"
+            target="_blank"
+           
+          >
+
+            Youtube
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='cool.html'">
+            Cool Effect
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="autoshow">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="Krishna recent photo (1) (1).jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Projects</h3>
+              <p>100+ WebSites<br />10+ AI Projects</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I'm Prateek, also known as Mr. Nova! I'm a 12-year-old coder with a passion for Python, HTML, CSS, and JavaScript. Coding is my favorite hobby, and I love creating innovative solutions and bringing my ideas to life. When I'm not coding, I enjoy playing games and exploring new technologies. My ultimate goal is to open my own tech company, Nova, where creativity meets cutting-edge technology.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience" class="autoshow">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Development</h2>
+            <div class="article-container">
+              <article> 
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UI/UX</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <p class="section__text__p1">Listen</p>
+      <h1 class="title">What I Love</h1>
+      <br><br>
+       
+      <iframe class="autoshow" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5N3PlWrWhwVG3E3o1eI5ju?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    </section>
+
+    <br><br><br><br><br>
+
+    <marquee class="scrolltext"> Thank You For Visiting You Can continue To see the website.This Is Just A Text Effect!</marquee>
+    <br><br><br>
+
+    <section id="projects" class="autoshow">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.png"
+                alt="Nova Watches(Website)"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Nova Watches(Website)</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Prateek12code/novawatch'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://prateek12code.github.io/novawatch/index.html'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container" >
+            <div class="article-container">
+              <img
+                src="./assets/project-5.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">NPL(Website)</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Prateek12code/nlp'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://prateek12code.github.io/nlp/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/f7ccabe46867f95a4e72876ca88a7ed1.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">KrishiRakshak</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='error.html'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.youtube.com/watch?v=iByxmybfL0o'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section class="grid grid-3">
+      <div class="autoBLur" id="success"><a href="https://www.youtube.com/@NOVA-CodeAI" target="_blank" >NOVA</a></div>
+      <div class="autoBLur" id="error" >DESIGNER</div>
+      <div class="autoBLur" id="success"><a href="https://github.com/Prateek12code" target="_blank" >DEVELOPER</a></div>
+      <div class="autoBLur" id="success"><a href="https://www.youtube.com/@NOVA-CodeAI" target="_blank" >SUBCRIBE +</a></div>
+      <div class="autoBLur" id="warning"><a href="#profile">Prateek &#8599;</a></div>
+  </section>
+  <div class="buttons">
+    <button id="success">Success</button>
+    <button id="error">Error</button>
+    <button id="warning">Warning</button>
+    <button id="info">Info</button>
+  </div>
+
+  <br>
+<br>
+<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <main id="lol" class="autoshow">
+
+    <div class="slider" reverse="true" style="
+                --width: 200px;
+                --height: 200px;
+                --quantity: 9;
+            ">
+                <div class="list">
+                    <div class="item" style="--position: 1"><img src="images/slider2_1.png" alt=""></div>
+                    <div class="item" style="--position: 2"><img src="images/slider2_2.png" alt=""></div>
+                    <div class="item" style="--position: 3"><img src="images/slider2_3.png" alt=""></div>
+                    <div class="item" style="--position: 4"><img src="images/slider2_4.png" alt=""></div>
+                    <div class="item" style="--position: 5"><img src="images/slider2_5.png" alt=""></div>
+                    <div class="item" style="--position: 6"><img src="images/slider2_6.png" alt=""></div>
+                    <div class="item" style="--position: 7"><img src="images/slider2_7.png" alt=""></div>
+                    <div class="item" style="--position: 8"><img src="images/slider2_8.png" alt=""></div>
+                    <div class="item" style="--position: 9"><img src="images/slider2_9.png" alt=""></div>
+                </div>
+            </div>
+          </main>
+
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:krishaeo.code@gmail.com">krishaeo.code@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li class="touch"><a href="#about" >About</a></li>
+            <li class="touch"><a href="#experience" >Experience</a></li>
+            <li class="touch"><a href="#projects" >Projects</a></li>
+            <li class="touch"><a href="#contact" >Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Prateek. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
